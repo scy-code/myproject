@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="./static/css/bootstrap.css" />
+    <script src="./static/js/jquery.min.js"></script>
+    <script src="./static/js/popper.min.js"></script>
+    <script src="./static/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="static/css/login.css">
+    <link rel="stylesheet" href="static/css/header.css">
+</head>
+<body>
+    <!-- 头部div -->
+    <div class="container-fluid">
+        <div class="head-box">
+            <div>
+                <a href="http://www.hanjutv.com">
+                    <img id="innerlogo" src="static/picture/logo.png" alt="" />
+                </a>
+            </div>
+            <div id="head-box-nav">
+                <ul class="nav">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="main.html">首页</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="hjpage.html">韩剧</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="">电影</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="">综艺</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="">视频</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="zixun.html">资讯</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="bangd.html">榜单</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="search">
+                <form class="search-form" action="#" target="_blank">
+                    <input type="text" placeholder="请输入内容" />
+                    <a href="#"></a>
+                    <button>搜剧</button>
+                </form>
+            </div>
+            <div id="btn">
+                <button>登录</button>&nbsp;&nbsp;&nbsp;&nbsp;<a href="reg.html">注册</a>
+            </div>
+        </div>
+    </div>
+    <!-- 登陆box -->
+    <div class="container">
+        <div class="loginbox">
+            <div class="content">
+                <h2>帐号登录</h2>
+                <p>登 陆 后 即 可 获 得 更 多 会 员 功 能</p>
+                <div class="input-group">
+                    <img class="imga" src="./static/picture/yhm.png" alt="">
+                    <input class="input" id="phoneid" onfocus="show()" onblur="msg()" type="text" placeholder="手机号码">
+                </div>
+                <div class="input-group">
+                    <img class="imga" src="./static/picture/mm.png" alt="">
+                    <input class="input" type="text" placeholder="密码">
+                </div>
+                <div class="input-group-3">
+                    <img class="imga" src="./static/picture/true.png" alt="">
+                    <input class="input2" type="text" placeholder="验证码">
+                    <img class="img3"
+                        src="https://www.hanjutv.com/index.php?s=member&c=api&m=captcha&width=100&height=44" alt="">
+                </div>
+                <div class="login">
+                    <span>自动登录</span>
+                    <span>
+                        <a href="">忘记密码?</a>
+                    </span>
+                </div>
+                <button class="btn">立 即 登 录</button>
+                <p class="huo">或</p>
+                <button class="reg">注 册 账 号</button>
+                <div class="quick-login">
+                    <p>快 捷 登 录</p>
+                    <div class="wxqq">
+                        <a id="sina" href=""><img src="./static/picture/timg (1).jpg" alt=""></a>
+                        <a id="qq" href=""><img src="./static/picture/qqface_0_web.gif" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <iframe class="my-foot-w my_footer_h" src="footer.html" frameborder="0" scrolling="no"></iframe>
+    </footer>
+    <script>
+    </script>
+</body>
+
+</html>

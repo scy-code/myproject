@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>资讯网页</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="static/css/bootstrap.css" />
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/popper.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="static/css/header.css">
+    <link rel="stylesheet" href="static/css/footer.css">
+    <link rel="stylesheet" href="static/css/zixun.css">
+</head>
+
+<body>
+    <div class="zx-page">
+        <!-- 头部div -->
+        <div class="container-fluid">
+            <div class="head-box">
+                <div>
+                    <a href="http://www.hanjutv.com">
+                        <img id="innerlogo" src="static/picture/logo.png" alt="" />
+                    </a>
+                </div>
+                <div id="head-box-nav">
+                    <ul class="nav">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="main.html">首页</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="hjpage.html">韩剧</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="">电影</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="">综艺</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="">视频</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="zixun.html">资讯</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="bangd.html">榜单</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="search">
+                    <form class="search-form" action="#" target="_blank">
+                        <input type="text" placeholder="请输入内容" />
+                        <a href="#"></a>
+                        <button>搜剧</button>
+                    </form>
+                </div>
+                <div id="btn">
+                    <button onclick="show()">登录</button>&nbsp;&nbsp;&nbsp;&nbsp;<a href="login.html">注册</a>
+                </div>
+            </div>
+        </div>
+        <!-- 主内容区 -->
+        <div class="zxnav">
+            <div class="zx-container">
+                <ul>
+                    <li>
+                        <a href="">最新</a>
+                    </li>
+                    <li>
+                        <a href="">韩剧</a>
+                    </li>
+                    <li>
+                        <a href="">综艺</a>
+                    </li>
+                    <li>
+                        <a href="">电影</a>
+                    </li>
+                    <li>
+                        <a href="">音乐</a>
+                    </li>
+                    <li>
+                        <a href="">图片</a>
+                    </li>
+                    <li>
+                        <a href="">专访</a>
+                    </li>
+                    <li>
+                        <a href="">明星</a>
+                    </li>
+                    <li>
+                        <a href="">剧评</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="zx-list">
+            <a href="">首页&nbsp;&nbsp;/</a>
+            <a href="">资讯&nbsp;&nbsp;/</a>
+            <a href="">列表</a>
+        </div>
+        <div class="warp">
+            <div class="warp-main">
+                <!-- 左边加载展示 -->
+                <div class="warp-left">
+                    <div class="warp-left-main">
+                        <div class="one">
+                            <div class="one-main">
+                                <a href="">
+                                    <img src="http://hanju1img.thinkymobi.com/201908/1c538b413b.jpg" alt="">
+                                </a>
+                                <div class="one-text">
+                                    <h3 class="title ellipsis-1">
+                                        <a href="" title="韩剧：搞笑喜剧《很便宜，千里马超市》最新预告，金炳哲：不管什么货色来我都录取！">韩剧：搞笑喜剧《很便宜，千里马超市》最新预告，金炳哲：不管什么货色来我都录取！</a>
+                                    </h3>
+                                    <div class="text">
+                                        tvN全新金曜剧《很便宜，千里马超市》（每周五播出）公开了搞笑又逗趣的人物预告，两位男主角「李东辉」和「金炳哲」的互动也让人非常期待～！
+                                    </div>
+                                    <div class="text-info">
+                                        <span><a href="main.html" target="_blank"></a>韩剧</span>
+                                        <span>奔跑的蜗牛</span>
+                                        <span>7小时前</span>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="one">
+                            <div class="one-main">
+                                <a href="">
+                                    <img src="http://hanju1img.thinkymobi.com/201908/aa5bf4ea04.jpg" alt="">
+                                </a>
+                                <div class="one-text">
+                                    <h3 class="title ellipsis-1">
+                                        <a href="" title="韩剧：新剧《意外发现的一天》五位长腿OPPA的人物剧照全公开，哪一位是你的pick呢～！？">韩剧：新剧《意外发现的一天》五位长腿OPPA的人物剧照全公开，哪一位是你的pick呢～！？</a>
+                                    </h3>
+                                    <div class="text">
+                                        tvN全新金曜剧《很便宜，千里马超市》（每周五播出）公开了搞笑又逗趣的人物预告，两位男主角「李东辉」和「金炳哲」的互动也让人非常期待～！
+                                    </div>
+                                    <div class="text-info">
+                                        <span><a href="main.html" target="_blank"></a>韩剧</span>
+                                        <span>奔跑的蜗牛</span>
+                                        <span>7小时前</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 第三个 -->
+                        <div class="one">
+                            <div class="one-main">
+                                <a href="">
+                                    <img src="http://hanju1img.thinkymobi.com/201908/bb9ea34884.jpg" alt="">
+                                </a>
+                                <div class="one-text">
+                                    <h3 class="title ellipsis-1">
+                                        <a href="" title="韩剧：tvN 热门剧《德鲁纳酒店》完结后《阿斯达年代记》第3部将於下周六接续播出！">韩剧：tvN
+                                            热门剧《德鲁纳酒店》完结后《阿斯达年代记》第3部将於下周六接续播出！</a>
+                                    </h3>
+                                    <div class="text">
+                                        tvN 可以说是强档韩剧一部接一部《阿斯达年代记》第1&2部，揭起了不少话题性，而 IU、吕珍九所主演的《德鲁纳酒店》接续也相当给力，话题性一直排在冠军之位。
+                                    </div>
+                                    <div class="text-info">
+                                        <span><a href="main.html" target="_blank"></a>韩剧</span>
+                                        <span>奔跑的蜗牛</span>
+                                        <span>7小时前</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 第四个 -->
+                        <div class="one">
+                            <div class="one-main">
+                                <a href="">
+                                    <img src="https://1img.hanjutv.com/201908/ffe2cfdf01.jpg" alt="">
+                                </a>
+                                <div class="one-text">
+                                    <h3 class="title ellipsis-1">
+                                        <a href="" title="韩剧：今日有三部新剧首播！SBS《17岁的条件》& KBS《让我聆听你的歌》& MBC《欢迎来到第2人生》">韩剧：今日有三部新剧首播！SBS《17岁的条件》&
+                                            KBS《让我聆听你的歌》& MBC《欢迎来到第2人生》</a>
+                                    </h3>
+                                    <div class="text">
+                                        SBS独幕剧《17岁的条件》：描述17岁的青少年们，忽然意识到自己成为大人后所发生的故事。尹灿荣、朴莳恩饰演高中二年级的文科生，看似普通的生活奇妙变化后...
+                                    </div>
+                                    <div class="text-info">
+                                        <span><a href="main.html" target="_blank"></a>韩剧</span>
+                                        <span>奔跑的蜗牛</span>
+                                        <span>7小时前</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 第五个 -->
+                        <div class="one">
+                            <div class="one-main">
+                                <a href="">
+                                    <img src="https://1img.hanjutv.com/201908/3fa0e20952.jpg" alt="">
+                                </a>
+                                <div class="one-text">
+                                    <h3 class="title ellipsis-1">
+                                        <a href="" title="韩剧：收视太好！《德鲁纳酒店》9月4日要去表彰休假啦～度假地未定">韩剧：收视太好！《德鲁纳酒店》9月4日要去表彰休假啦～度假地未定</a>
+                                    </h3>
+                                    <div class="text">
+                                        今年夏季最火爆的电视剧一定是IU和吕珍九主演的《德鲁纳酒店》，收视率节节攀升的该剧最近传出了为犒劳辛苦的演员和剧组工作人员将去度假的好消息。
+                                    </div>
+                                    <div class="text-info">
+                                        <span><a href="main.html" target="_blank"></a>韩剧</span>
+                                        <span>奔跑的蜗牛</span>
+                                        <span>7小时前</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 第六个 -->
+                        <div class="one">
+                            <div class="one-main">
+                                <a href="">
+                                    <img src="http://hanju1img.thinkymobi.com/201908/97dcb3a67b.jpg" alt="">
+                                </a>
+                                <div class="one-text">
+                                    <h3 class="title ellipsis-1">
+                                        <a href="" title="韩剧：青明转世啦！《伟大的Show》李到晛特别出演宋承宪的少年时期">韩剧：青明转世啦！《伟大的Show》李到晛特别出演宋承宪的少年时期</a>
+                                    </h3>
+                                    <div class="text">
+                                        tvN 全新月火剧《伟大的Show》（每周一、二播出）在本周一正式首播，由李到晛饰演宋承宪的少年时期，也让许多《德鲁纳酒店》彷佛看到「青明」转世开心～！
+                                    </div>
+                                    <div class="text-info">
+                                        <span><a href="main.html" target="_blank"></a>韩剧</span>
+                                        <span>奔跑的蜗牛</span>
+                                        <span>7小时前</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 第七个 -->
+                        <div class="one">
+                            <div class="one-main">
+                                <a href="">
+                                    <img src="http://hanju1img.thinkymobi.com/201908/3bc56fef26.jpg" alt="">
+                                </a>
+                                <div class="one-text">
+                                    <h3 class="title ellipsis-1">
+                                        <a href="" title="韩剧：李升基&秀智新剧《Vagabond》第二版预告片公开！">韩剧：李升基&秀智新剧《Vagabond》第二版预告片公开！</a>
+                                    </h3>
+                                    <div class="text">
+                                        今日中午，SBS新剧《Vagabond》公开了第二支预告片，该剧讲的是男主角被卷入坠机事件，因为李升基和秀智担任主演，一早就备受关注。
+                                    </div>
+                                    <div class="text-info">
+                                        <span><a href="main.html" target="_blank"></a>韩剧</span>
+                                        <span>奔跑的蜗牛</span>
+                                        <span>7小时前</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 第八个 -->
+                        <div class="one">
+                            <div class="one-main">
+                                <a href="">
+                                    <img src="http://hanju1img.thinkymobi.com/201908/9978f890e0.jpg" alt="">
+                                </a>
+                                <div class="one-text">
+                                    <h3 class="title ellipsis-1">
+                                        <a href="" title="韩剧：12年的重逢破灭了！ Eric&郑裕美辞演《顺其自然》">韩剧：12年的重逢破灭了！
+                                            Eric&郑裕美辞演《顺其自然》</a>
+                                    </h3>
+                                    <div class="text">
+                                        《顺其自然》是2007年播出的17集电视剧，以百货店和时尚业为大舞台，讲述了4位主人公工作和爱情的故事，当时就是由Eric和郑裕美主演。
+                                    </div>
+                                    <div class="text-info">
+                                        <span><a href="main.html" target="_blank"></a>韩剧</span>
+                                        <span>奔跑的蜗牛</span>
+                                        <span>7小时前</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 第9个 -->
+                        <div class="one">
+                            <div class="one-main">
+                                <a href="">
+                                    <img src="http://hanju1img.thinkymobi.com/201908/ce80af7be4.jpg" alt="">
+                                </a>
+                                <div class="one-text">
+                                    <h3 class="title ellipsis-1">
+                                        <a href="" title="韩剧：两代型男有望同台！朴诚雄、崔振赫获邀演出 OCN 新剧">韩剧：两代型男有望同台！朴诚雄、崔振赫获邀演出 OCN
+                                            新剧</a>
+                                    </h3>
+                                    <div class="text">
+                                        OCN 电视台今天（26 日）傍晚时透露：「我们分别向朴诚雄及崔振赫提出演出《Rugal》的邀约，目前两人都正在考虑当中。」
+                                    </div>
+                                    <div class="text-info">
+                                        <span><a href="main.html" target="_blank"></a>韩剧</span>
+                                        <span>奔跑的蜗牛</span>
+                                        <span>7小时前</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 第10个 -->
+                        <div class="one">
+                            <div class="one-main">
+                                <a href="">
+                                    <img src="http://hanju1img.thinkymobi.com/201908/2f055ff882.jpg" alt="">
+                                </a>
+                                <div class="one-text">
+                                    <h3 class="title ellipsis-1">
+                                        <a href="" title="韩剧：《Watcher》大结局，收视率反转「创新高」破自身纪录完美收官！">韩剧：《Watcher》大结局，收视率反转「创新高」破自身纪录完美收官！</a>
+                                    </h3>
+                                    <div class="text">
+                                        《Watcher》终於在上周日迎来第16集大结局，收视率从第一集的 AGB
+                                        全国2.993%，一路攀升至6.585%（最高纪录7.3%），首尔圈甚至突破至7.198%...
+                                    </div>
+                                    <div class="text-info">
+                                        <span><a href="main.html" target="_blank"></a>韩剧</span>
+                                        <span>奔跑的蜗牛</span>
+                                        <span>7小时前</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 第11个 -->
+                        <div class="one">
+                            <div class="one-main">
+                                <a href="">
+                                    <img src="http://hanju1img.thinkymobi.com/201908/488d0f02db.jpg" alt="">
+                                </a>
+                                <div class="one-text">
+                                    <h3 class="title ellipsis-1">
+                                        <a href="" title="韩剧：新剧《意外发现的一天》路云&金惠允「32公分的超萌身高差」漫画主人公登场">韩剧：新剧《意外发现的一天》路云&金惠允「32公分的超萌身高差」漫画主人公登场</a>
+                                    </h3>
+                                    <div class="text">
+                                        预计在九月下旬首播的 MBC 全新水木剧《意外发现的一天》公开了男女主人公 SF9 路云和金惠允的情侣剧照，两人将展开一场与其他校园爱情剧不同的奇幻罗曼史。
+                                    </div>
+                                    <div class="text-info">
+                                        <span><a href="main.html" target="_blank"></a>韩剧</span>
+                                        <span>奔跑的蜗牛</span>
+                                        <span>7小时前</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 第12个 -->
+                        <div class="one">
+                            <div class="one-main">
+                                <a href="">
+                                    <img src="http://hanju1img.thinkymobi.com/201908/6373a3c9f8.jpg" alt="">
+                                </a>
+                                <div class="one-text">
+                                    <h3 class="title ellipsis-1">
+                                        <a href="" title="韩剧：电视剧话题性《德鲁纳酒店》李到晛冲入TOP.4《60天》池珍熙上升11个名次">韩剧：电视剧话题性《德鲁纳酒店》李到晛冲入TOP.4《60天》池珍熙上升11个名次</a>
+                                    </h3>
+                                    <div class="text">
+                                        韩国 GOODDATA 调查了话题性 TOP.10 排行榜，毫无悬念tvN《德鲁纳酒店连续第七周成为话题性 No.1
+                                        韩剧，李知恩（IU）、吕珍九、李到晛分别占据1、3、4位，...
+                                    </div>
+                                    <div class="text-info">
+                                        <span><a href="main.html" target="_blank"></a>韩剧</span>
+                                        <span>奔跑的蜗牛</span>
+                                        <span>7小时前</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 第13个 -->
+                        <div class="one">
+                            <div class="one-main">
+                                <a href="">
+                                    <img src="http://hanju1img.thinkymobi.com/201908/849b59038b.jpg" alt="">
+                                </a>
+                                <div class="one-text">
+                                    <h3 class="title ellipsis-1">
+                                        <a href="" title="韩剧：池昌旭、元真儿主演tvN新剧《请融化我》公开双人海报！剧本阅读现场笑声不断 十分欢乐">韩剧：池昌旭、元真儿主演tvN新剧《请融化我》公开双人海报！剧本阅读现场笑声不断
+                                            十分欢乐</a>
+                                    </h3>
+                                    <div class="text">
+                                        由池昌旭、元真儿等主演tvN新周末剧《请融化我》将於下月（9月）首播！#池昌旭的衬衫穿得好好看 #退伍后回归小萤幕的作品 #追起
+                                    </div>
+                                    <div class="text-info">
+                                        <span><a href="main.html" target="_blank"></a>韩剧</span>
+                                        <span>奔跑的蜗牛</span>
+                                        <span>7小时前</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 第14个 -->
+                        <div class="one">
+                            <div class="one-main">
+                                <a href="">
+                                    <img src="http://hanju1img.thinkymobi.com/201908/1d4d48ac1a.jpg" alt="">
+                                </a>
+                                <div class="one-text">
+                                    <h3 class="title ellipsis-1">
+                                        <a href="" title="韩剧：姜河那又要演员警啦！ 出演KBS新剧《山茶花开时》搭档孔晓振">韩剧：姜河那又要演员警啦！
+                                            出演KBS新剧《山茶花开时》搭档孔晓振</a>
+                                    </h3>
+                                    <div class="text">
+                                        KBS 2TV最新水木剧《山茶花开时》是一部生活密著型痴情恋义感但缺乏对策、淳朴土气却又有莫名性感的派出所巡警黄龙植（音）， 对故事多多的山茶一往情深。
+                                    </div>
+                                    <div class="text-info">
+                                        <span><a href="main.html" target="_blank"></a>韩剧</span>
+                                        <span>奔跑的蜗牛</span>
+                                        <span>7小时前</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 第15个 -->
+                        <div class="one">
+                            <div class="one-main">
+                                <a href="">
+                                    <img src="http://hanju1img.thinkymobi.com/201908/3e4536c637.jpg" alt="">
+                                </a>
+                                <div class="one-text">
+                                    <h3 class="title ellipsis-1">
+                                        <a href="" title="韩剧：申世景被车银优的真心感动到啦！让观众等了24集的浪漫「初KISS」">韩剧：申世景被车银优的真心感动到啦！让观众等了24集的浪漫「初KISS」</a>
+                                    </h3>
+                                    <div class="text">
+                                        MBC热门水木剧《新入史官丘海昤》本周播出第21~24集（=11~12大集），连续几天官方都热切的预告出…李棽（车银优　饰）即将迎来初KISS的剧照。
+                                    </div>
+                                    <div class="text-info">
+                                        <span><a href="main.html" target="_blank"></a>韩剧</span>
+                                        <span>奔跑的蜗牛</span>
+                                        <span>7小时前</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 右边加载展示 -->
+                <div class="warp-right">
+                    <div class="warp-right-top">
+                        <!-- 最新资讯 -->
+                        <div class="right-zxzx">
+                            <span class="zxzx-title">最新资讯</span>
+                            <div class="zxzx-ullist">
+                                <ul>
+                                    <li>
+                                        <a href="" title="韩剧：新剧《意外发现的一天》五位长腿OPPA的人物剧照全公开，哪一位是你的pick呢～！？"><img src="http://hanju1img.thinkymobi.com/201908/aa5bf4ea04.jpg"
+                                                alt=""></a>
+                                        <div class="listtext">
+                                            <a href="">《意外发现的一天》五位长腿人物剧照全公开～！？</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="" title="韩剧：搞笑喜剧《很便宜，千里马超市》最新预告，金炳哲：不管什么货色来我都录取！"><img src="http://hanju1img.thinkymobi.com/201908/1c538b413b.jpg"
+                                                alt=""></a>
+                                        <div class="listtext">
+                                            <a href="">韩剧：搞笑喜剧《很便宜，千里马超市》最新预告</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="" title="韩剧：tvN 热门剧《德鲁纳酒店》完结后《阿斯达年代记》第3部将於下周六接续播出！"><img src="http://hanju1img.thinkymobi.com/201908/bb9ea34884.jpg"
+                                                alt=""></a>
+                                        <div class="listtext">
+                                            <a href="">韩剧：tvN 热门剧《阿斯达年代记》第3部将於下周六接续播出！</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="" title="韩剧：tvN 韩剧：青明转世啦！《伟大的Show》李到晛特别出演宋承宪的少年时期"><img src="http://hanju1img.thinkymobi.com/201908/97dcb3a67b.jpg"
+                                                alt=""></a>
+                                        <div class="listtext">
+                                            <a href="">韩剧：青明转世啦！《伟大的Show》李到晛特别出演宋承宪的少年时期</a>
+                                        </div>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+                        </div>
+                        <!-- 正在热播 -->
+                        <div class="right-zzrb">
+                            <span class="zzrb-title">正在热播</span>
+                            <div class="zzrb-list">
+                                <ul>
+                                    <li>
+                                        <a href="">至忘记诗的你</a>
+                                        <span>更新至16集</span>
+                                    </li>
+                                    <li>
+                                        <a href="">波浪啊波浪啊</a>
+                                        <span>更新至116集</span>
+                                    </li>
+                                    <li>
+                                        <a href="">情妇</a>
+                                        <span>更新至12集</span>
+                                    </li>
+                                    <li>
+                                        <a href="">一起用餐吧</a>
+                                        <span>更新至14集</span>
+                                    </li>
+                                    <li>
+                                        <a href="">善良魔女传</a>
+                                        <span>更新至44集</span>
+                                    </li>
+                                    <li>
+                                        <a href="">小神的孩子们</a>
+                                        <span>更新至16集</span>
+                                    </li>
+                                    <li>
+                                        <a href="">一起生活吧</a>
+                                        <span>已完结</span>
+                                    </li>
+                                    <li>
+                                        <a href="">Life</a>
+                                        <span>已完结</span>
+                                    </li>
+                                    <li>
+                                        <a href="">富家公子</a>
+                                        <span>更新至116集</span>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+
+                        </div>
+                        <!-- 热门标签 -->
+                        <div class="right-rmbq">
+                            <span>
+                                热门标签
+                            </span>
+                            <div class="rmbq-list">
+                                <a href="">傻瓜对傻瓜/</a>
+                                <a href="">新慜娥/</a>
+                                <a href="">李沇熹/</a>
+                                <a href="">明堂/</a>
+                                <a href="">《想停止的瞬间》/</a>
+                                <a href="">燃烧的青春/</a>
+                                <a href="">宣美/</a>
+                                <a href="">盛宴/</a>
+                                <a href="">金正铉/</a>
+                                <a href=""> The Clowns/</a>
+                                <a href="">崔武成/</a>
+                                <a href="">大君/</a>
+                                <a href="">SJ Label/</a>
+                                <a href=""> 闪电号/</a>
+                                <a href="">上流社会/</a>
+                                <a href=""> 韩令松绑央视/</a>
+                                <a href="">池锡辰/</a>
+                                <a href=""> 新曲/</a>
+                                <a href=""> 演员金南珠/</a>
+                                <a href=""> 尹恩惠/</a>
+                                <a href="">Jugglers/</a>
+                                <a href=""> 郑秀妍/</a>
+                                <a href="">孙艺珍/</a>
+                                <a href="">金烔完/</a>
+                                <a href="">兑现承诺/</a>
+                                <a href="">金秘书为何那样</a>
+
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- 底部div -->
+        <div class="container-fluid">
+            <!-- 底部footer -->
+            <div class="footerbox">
+                <div class="footermain">
+                    <div class="footerone">
+                        <h5>排行榜</h5>
+                        <ul>
+                            <li><a href="">韩剧排行榜</a></li>
+                            <li><a href="">综艺行榜</a></li>
+                            <li><a href="">电影排行榜</a></li>
+                        </ul>
+                    </div>
+                    <div class="footertwo">
+                        <h5>追剧</h5>
+                        <ul>
+                            <li><a href="">韩剧</a></li>
+                            <li><a href="">电影</a></li>
+                            <li><a href="">综艺</a></li>
+                            <li><a href="">视频</a></li>
+                        </ul>
+                    </div>
+                    <div class="footerthree">
+                        <h5>资讯</h5>
+                        <ul>
+                            <li><a href="">韩剧资讯</a></li>
+                            <li><a href="">电影资讯</a></li>
+                            <li><a href="">综艺资讯</a></li>
+                            <li><a href="">音乐资讯</a></li>
+                            <li><a href="">专访资讯</a></li>
+                            <li><a href="">图片艺资讯</a></li>
+                            <li><a href="">明星资讯</a></li>
+                            <li><a href="">专访资讯</a></li>
+                        </ul>
+                    </div>
+                    <div class="footerfour">
+                        <h5>关于</h5>
+                        <ul>
+                            <li><a href="">关于我们</a></li>
+                            <li><a href="">联系我们</a></li>
+                            <li><a href="">商务合作</a></li>
+                            <li><a href="">版权投诉</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 版权 -->
+            <div class="footerbq">
+                <span>Copyright © 2018 韩剧tv. All rights reserved.</span>
+                <span>蜀ICP备16009484号-1</span>
+                <span>
+                    <img src="https://www.hanjutv.com/statics/images/ba-icon.png" alt="">
+                    <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51010802000107">川公网安备
+                        51010802000107号</a>
+                </span>
+            </div>
+        </div>
+    </div>
+    <script>
+        function show(){
+           location.href="login.html"
+        }
+    </script>
+</body>
+
+</html>

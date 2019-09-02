@@ -1,0 +1,100 @@
+
+*{margin: 0; padding: 0;}
+/*-----------------------------------1.页面主体----------------------------------------------*/
+.container-fluid{
+    background: #fafafa !important;
+}
+/*-------------------------------------2.头部导航栏------------------------------------------*/
+.head-box{
+    width: 1503px;
+    height: 70px;
+    color: #ffffff;
+    background: #fafafa;
+    margin: 0 auto;
+    font-size: 14px;
+    clear: both;
+    /*border:1px solid red;*/
+    position: fixed;
+    top: 0;
+    left: 6%;
+}
+#innerlogo{
+    padding: 16px 0;
+    margin-right: 40px;
+    float: left;
+}
+#head-box-nav{
+    float: left;
+}
+.nav-item{
+    width: 68px;
+    height:68px
+}
+.nav-item .nav-link{
+    width:32px;
+    height:68px;
+    font-size:16px;
+    margin: 0 18px;
+    padding: 0;
+    line-height: 68px;
+    color: #333333;
+}
+.search-form{
+    float: left;
+}
+.search-form>input{
+    width: 298px;
+    height: 38px;
+    padding: 8px 36px 8px 20px;
+    outline: 0 none;
+    font-size: 14px;
+    line-height: 18px;
+    border: 2px solid #FF443F;
+    border-radius: 100px 0 0 100px;
+    border-right: 0;
+    float: left;
+    position: relative;
+    margin:16px 0;
+    margin-left: 80px;
+}
+.search-form>button{
+    width: 80px;
+    height:39px;
+    color: #ffffff;
+    background: #ff443f;
+    border-radius: 0 100px 100px 0;
+    margin-top: 15px;
+    outline: none;
+}
+.search-form>a{
+    width:36px;
+    height:36px;
+    display:inline-block;
+    position: absolute;
+}
+a:hover{
+    color: #ff443f !important;
+}
+#btn{
+    width: 138px;
+    height:68px;
+    background:#ffffff ;
+    float: right;
+    /* border:1px solid black; */
+}
+#btn>button{
+    width: 68px;
+    height:38px;
+    color: #ffffff;
+    background: #ff443f;
+    border-radius: 100px 100px 100px 100px;
+    outline: none;
+    padding:0 18px;
+    margin: 16px 0 16px -80px;
+
+}
+#btn>a{
+    color: #333333;
+    width: 64px;
+    height:38px;
+}

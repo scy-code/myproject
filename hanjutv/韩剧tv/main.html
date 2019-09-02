@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>韩剧tv主网页</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="static/css/bootstrap.css" />
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/popper.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="static/css/header.css" type="text/css" />
+    <link rel="stylesheet" href="static/css/main.css" type="text/css">
+    <link rel="stylesheet" href="static/css/footer.css" type="text/css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- 头部导航栏-->
+        <div class="head-box">
+            <div>
+                <a href="http://www.hanjutv.com">
+                    <img id="innerlogo" src="static/picture/logo.png" alt="" />
+                </a>
+            </div>
+            <div id="head-box-nav">
+                <ul class="nav">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="main.html" target="_self">首页</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="hjpage.html">韩剧</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="">电影</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="">综艺</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="">视频</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="zixun.html">资讯</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="bangd.html">榜单</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="search">
+                <form class="search-form" action="#" target="_blank">
+                    <input type="text" placeholder="请输入内容" />
+                    <a href="#"></a>
+                    <button>搜剧</button>
+                </form>
+            </div>
+            <div id="btn">
+                <button onclick="show()">登录</button>&nbsp;&nbsp;&nbsp;&nbsp;<a href="reg.html">注册</a>
+            </div>
+        </div>
+        <!--主体内容展示 -->
+        <!-- 左边的图片盒子-->
+        <div id="head-box-main">
+            <div id="leftbox">
+                <div id="leftbox-top">
+                    <img src="https://1img.hanjutv.com/201908/4ac5aac237.png" alt="" />
+                </div>
+                <div id="leftbox-buttom">
+                    <img id="img1" src="https://1img.hanjutv.com/201907/dcc62bed78.png" alt="" />
+                    <img src="https://1img.hanjutv.com/ueditor/image/20180625/1529898551287317.png" alt="" />
+                </div>
+            </div>
+            <!-- 中间的盒子-->
+            <div id="centerbox">
+                <ul class="d-flex flex-wrap">
+                    <li><img id="imga" src="https://1img.hanjutv.com/201906/3e8fb83bb2.jpg" alt="" /></li>
+                    <li><img id="imgb" src="https://1img.hanjutv.com/201908/ffe2cfdf01.jpg" alt="" /></li>
+                    <li><img id="imgc" src="https://1img.hanjutv.com/201908/3fa0e20952.jpg" alt="" /></li>
+                    <li><img id="imgd" src="https://1img.hanjutv.com/201908/a3e6f3d5b8.jpg" alt="" /></li>
+                    <li><img id="imge" src="https://1img.hanjutv.com/201908/e6d2c6bde7.jpg" alt="" /></li>
+                    <li><img id="imgf" src="https://1img.hanjutv.com/201908/6f6328594a.jpg" alt="" /></li>
+                </ul>
+            </div>
+            <!-- 右边的盒子-->
+            <div id="rightbox">
+                <ul>
+                    <li>
+                        <span class="xuh" id="xuh1">1</span><a href="">经常请漂亮姐姐吃饭</a><span>↓</span>
+                    </li>
+                    <li>
+                        <span class="xuh" id="xuh2">2</span><a href="">当你沉睡时</a><span>↓</span>
+                    </li>
+                    <li>
+                        <span class="xuh" id="xuh3">3</span><a href="">花游记</a><span>↓</span>
+                    </li>
+                    <li>
+                        <span class="xuh" id="xuh4">4</span><a href="">孤单又灿烂的神-鬼怪</a><span>↓</span>
+                    </li>
+                    <li>
+                        <span class="xuh" id="xuh5">5</span><a href="">蓝色大海的传说</a><span>↓</span>
+                    </li>
+                    <li>
+                        <span class="xuh" id="xuh6">6</span><a href="">金秘书为何那样</a><span>↓</span>
+                    </li>
+                    <li>
+                        <span class="xuh" id="xuh7">7</span><a href="">翡翠恋人</a><span>↓</span>
+                    </li>
+                    <li>
+                        <span class="xuh" id="xuh8">8</span><a href="">我的ID是江南美人</a><span>↓</span>
+                    </li>
+                    <li>
+                        <span class="xuh" id="xuh9">9</span><a href="">继承者们</a><span>↓</span>
+                    </li>
+                    <li>
+                        <span class="xuh" id="xuh10">10</span><a href="">来自星星的你</a><span>↓</span>
+                    </li>
+                    <button class="btn-size"><a href="bangd.html">更 多</a></button>
+                </ul>
+            </div>
+        </div>
+        <!-- 追剧 -->
+        <div class="zhuijubox">
+            <div class="zjnav">
+                <h5>追剧</h5>
+                <ul>
+                    <li>
+                        <span href="">今日更新</span>
+                    </li>
+                    <li>
+                        <span href="">即将开播</span>
+                    </li>
+                    <li>
+                        <span href="">已经开播</span>
+                    </li>
+                    <a href="">一周追剧表</a>
+                </ul>
+            </div>
+            <div class="zjimg">
+                <img src="https://1img.hanjutv.com/201812/c02a833a90.jpg" alt="">
+                <img src="https://1img.hanjutv.com/201806/4abd94926d.jpg" alt="">
+                <img src="https://1img.hanjutv.com/201807/00f216184d.png" alt="">
+                <img src="https://1img.hanjutv.com/201806/9bf0f99e18.jpg" alt="">
+                <img src="https://1img.hanjutv.com/201806/8dce71fb7b.jpg" alt="">
+                <img src="https://1img.hanjutv.com/201808/defa5e70ff.jpg" alt="">
+                <img src="https://1img.hanjutv.com/201807/c99a54068a.jpg" alt="">
+                <img src="https://1img.hanjutv.com/201807/a5e139cb71.jpg" alt="">
+                <img src="https://1img.hanjutv.com/201807/30055eaf8a.jpg" alt="">
+                <img src="https://1img.hanjutv.com/201807/16313811b1.jpg" alt="">
+                <img src="https://1img.hanjutv.com/201807/1d8546c741.jpg" alt="">
+                <img src="https://1img.hanjutv.com/201807/13921f2393.jpg" alt="">
+            </div>
+        </div>
+        <!-- 韩剧瞬间-->
+        <div class="hjsjbox">
+            <div class="hjsjnav">
+                <h5>韩剧瞬间</h5>
+                <ul>
+                    <a href="">更 多</a>
+                </ul>
+            </div>
+            <div class="hjsjimg">
+                <div>
+                    <img src="https://1img.hanjutv.com/201806/42253a5a96.png" alt="" /><br>
+                    <a href="" title="我的id是江南美人 中字预告01"> 我的id是江南美人 中字预告01</a>
+                </div>
+                <div>
+                    <img src="https://1img.hanjutv.com/201806/4dcbdc7701.png" alt="" /><br>
+                    <a href="" title="【预告1】Life 李栋旭/曹承佑">预告1】Life 李栋旭/曹承佑"</a>
+                </div>
+                <div>
+                    <img src="https://1img.hanjutv.com/201805/76b0cd1990.png" alt="" /><br>
+                    <a href="" title="《想停止的瞬间》为什么总盯着我看？因为喜欢你">《想停止的瞬间》为什么总盯着我看？因为喜欢你</a>
+                </div>
+                <div>
+                    <img src="https://1img.hanjutv.com/201804/b6a4e5bfce.png" alt="" /><br>
+                    <a href="" title="韩剧《我的大叔》花絮: IU和李善均拍温馨友爱海报!">韩剧《我的大叔》花絮: IU和李善均拍温馨友爱海报!</a>
+                </div>
+                <div>
+                    <img id="lastimg" src="https://1img.hanjutv.com/201804/a3e44044e1.png" alt="" /><br>
+                    <a href="" title="韩佳人OCN《情妇》情节预告：神秘美">韩佳人OCN《情妇》情节预告：神秘美</a>
+                </div>
+
+            </div>
+        </div>
+        <!-- 综艺-->
+        <div class="zongyibox">
+            <div class="zongyinav">
+                <h5>综艺</h5>
+                <ul>
+                    <a href="">更 多</a>
+                </ul>
+            </div>
+            <div class="zyleftimg">
+                <img src="http://1img.hanjutv.com/vod/2017-04-05/58e4ade7c498a.jpg" alt="" title="主演:申宝拉" /><br />
+                <a href="">Gag Concert</a>
+                <p>主演:申宝拉</p>
+            </div>
+            <div class="zyrightimg">
+                <div class="img1">
+                    <img src="http://1img.hanjutv.com/vod/2017-04-05/58e4adeaa6f83.jpg" alt="" /><br />
+                    <a href="">RunningMan</a>
+                    <p>主演:刘在石，池石镇...</p>
+                </div>
+                <div class="img1">
+                    <img src="http://1img.hanjutv.com/vod/2017-04-05/58e4ade324206.jpg" alt="" /><br />
+                    <a href="">喜剧大联盟</a>
+                    <p>主演:申荣日，孔瑞英</p>
+                </div>
+                <div class="img1">
+                    <img src="http://1img.hanjutv.com/vod/2017-04-05/58e4adefe17f5.jpg" alt="" /><br />
+                    <a href="">生活的达人</a>
+                    <p>主演:第一个</p>
+                </div>
+                <div class="img1">
+                    <img src="http://1img.hanjutv.com/vod/2017-04-05/58e4adf150493.jpg" alt="" /><br />
+                    <a href="">拜托了冰箱</a>
+                    <p>主演:郑亨敦，金成柱</p>
+                </div>
+                <div class="img1">
+                    <img src="http://1img.hanjutv.com/vod/2017-04-05/58e4add6a746f.jpg" alt="" /><br />
+                    <a href="">无限挑战</a>
+                    <p>主演:刘在石...</p>
+                </div>
+                <div class="img1">
+                    <img src="http://1img.hanjutv.com/2017/0901/20170901052240873.jpg" alt="" /><br />
+                    <a href="">团结才能火</a>
+                    <p>主演:郑亨敦...</p>
+                </div>
+            </div>
+        </div>
+        <!-- 综艺热点-->
+        <div class="zyrdbox">
+            <div class="zyrdnav">
+                <h5>综艺热点</h5>
+                <ul>
+                    <a href="">更 多</a>
+                </ul>
+            </div>
+            <div class="zyrdimg">
+                <div>
+                    <img src="https://1img.hanjutv.com/201904/4f88e9e163.jpg" alt="" /><br>
+                    <a href="" title="《周偶2》场面混乱的动物叫声模仿猜词">《周偶2》场面混乱的动物叫声模仿猜词</a>
+                </div>
+                <div>
+                    <img src="https://1img.hanjutv.com/201904/3d99233afd.jpg" alt="" /><br>
+                    <a href="" title="胜利出击《请给一顿饭Show》俄罗斯篇">胜利出击《请给一顿饭Show》俄罗斯篇</a>
+                </div>
+                <div>
+                    <img src="https://1img.hanjutv.com/201904/9e57e2d268.jpg" alt="" /><br>
+                    <a href="" title="《周偶2》WANNA·ONE挑战韩语绕口令">《周偶2》WANNA·ONE挑战韩语绕口令</a>
+                </div>
+                <div>
+                    <img src="https://1img.hanjutv.com/201904/6be32ad6d1.jpg" alt="" /><br>
+                    <a href="" title="郑亨敦Defconn联手JTBC 推出全新节目《爱豆间》">郑亨敦Defconn联手JTBC 推出全新节目《爱豆间》!</a>
+                </div>
+                <div>
+                    <img id="lastimg" src="https://1img.hanjutv.com/201907/72776bb6f4.jpg" alt="" /><br>
+                    <a href="" title="《Produce48》女团韩日出道 签订2年零6个月合约">《Produce48》女团韩日出道 签订2年零6个月合约</a>
+                </div>
+
+            </div>
+        </div>
+        <!-- 韩娱乐资讯-->
+        <div class="hyzxbox">
+            <div class="hyzxnav">
+                <h5>韩娱资讯</h5>
+                <ul>
+                    <a href="">更 多</a>
+                </ul>
+            </div>
+            <div class="hyzximg">
+                <div>
+                    <img src="https://1img.hanjutv.com/201908/b55bcfa102.jpg" alt="" /><br>
+                    <a href="" title="韩剧：《德鲁纳酒店》满月与清明的过往终於公开…第13集结尾完全高能！">韩剧：《德鲁纳酒店》满月与清明的过往终於公开…第13集结尾完全高能！</a>
+                </div>
+                <div>
+                    <img src="https://1img.hanjutv.com/201908/3e4536c637.jpg" alt="" /><br>
+                    <a href="" title="韩剧：申世景被车银优的真心感动到啦！让观众等了24集的浪漫「初KISS」">韩剧：申世景被车银优的真心感动到啦！让观众等了24集的浪漫「初KISS」</a>
+                </div>
+                <div>
+                    <img src="https://1img.hanjutv.com/201908/ec3f8d55b0.jpg" alt=""><br>
+                    <a href="" title="韩剧：《喜欢的话请响铃》结局停在这里可不行！剧迷跪求第2季 你是「宣梧派」还是「惠永派」？">韩剧：《喜欢的话请响铃》结局停在这里可不行！剧迷跪求第2季
+                        你是「宣梧派」还是「惠永派」？</a>
+                </div>
+                <div>
+                    <img src="https://1img.hanjutv.com/201908/68815fc18f.jpg" alt=""><br>
+                    <a href="" title="韩剧：张满月、李至安、Cindy……你心中的IU人生角色是哪一个？">韩剧：张满月、李至安、Cindy……你心中的IU人生角色是哪一个？</a>
+                </div>
+                <div>
+                    <img src="https://1img.hanjutv.com/201908/d6856df27f.jpg" alt=""><br>
+                    <a href=""
+                        title="韩剧：核子级甜蜜漫改剧《今天也可爱的狗》真人版来了！网选最萌「狗狗」女演员：一Kiss就变狗XD">韩剧：核子级甜蜜漫改剧《今天也可爱的狗》真人版来了！网选最萌「狗狗」女演员：一Kiss就变狗XD</a>
+                </div>
+                <div>
+                    <img src="https://1img.hanjutv.com/201908/95a28225a8.jpg" alt=""><br>
+                    <a href="" title="韩剧：现实中真的存在《喜欢的话请响铃》的恋爱铃APP！只是...">韩剧：现实中真的存在《喜欢的话请响铃》的恋爱铃APP！只是...</a>
+                </div>
+                <div>
+                    <img src="https://1img.hanjutv.com/201908/df603c93b4.jpg" alt=""><br>
+                    <a href=""
+                        target="韩剧：【KSD评分】由韩星网读者评分！《德鲁纳酒店》继续蝉联一位 《60天，指定幸存者》完结重回榜上">韩剧：【KSD评分】由韩星网读者评分！《德鲁纳酒店》继续蝉联一位
+                        《60天，指定幸存者》完结重回榜上</a>
+                </div>
+                <div>
+                    <img src="https://1img.hanjutv.com/201908/685e44c7e1.jpg" alt=""><br>
+                    <a href=""
+                        title="韩剧：丁海寅、蔡秀彬将合作tvN新剧《一半的一半》！明年（2020年）3月首播">韩剧：丁海寅、蔡秀彬将合作tvN新剧《一半的一半》！明年（2020年）3月首播</a>
+                </div>
+                <div>
+                    <img src="https://1img.hanjutv.com/201908/6d2e39452c.jpg" alt=""><br>
+                    <a href="" title="韩剧：《德鲁纳酒店》连续六周话题性一位，新剧《浪漫的体质》冲进TOP.5">韩剧：《德鲁纳酒店》连续六周话题性一位，新剧《浪漫的体质》冲进TOP.5</a>
+                </div>
+                <div>
+                    <img src="https://1img.hanjutv.com/201908/295e59c12c.jpg" alt=""><br>
+                    <a href="" title="韩剧：电视剧「演员话题性」总排行榜《德鲁纳酒店》两位配角"
+                        黑马之姿"冲入TOP.10">韩剧：电视剧「演员话题性」总排行榜《德鲁纳酒店》两位配角"黑马之姿"冲入TOP.10</a>
+                </div>
+
+
+
+            </div>
+        </div>
+        <!-- 友情链接 -->
+        <div class="yqljbox">
+            <div>
+                <h5>友情链接</h5>
+            </div>
+            <div class="yqljmain">
+                <ul>
+                    <li><a href="">微营销</a></li>
+                    <li><a href="">影视资讯</a></li>
+                    <li><a href="">婚戒</a></li>
+                    <li><a href="">爱特豆</a></li>
+                    <li><a href="">MKV影院</a></li>
+                    <li><a href="">影视大全</a></li>
+                    <li><a href="">历史故事</a></li>
+                    <li><a href="">广场舞大全</a></li>
+                    <li><a href="">手帕电影</a></li>
+                    <li><a href="">日剧TV</a></li>
+                    <li><a href="">巴陵时尚网</a></li>
+                    <li><a href="">篮球吧</a></li>
+                    <li><a href="">影视大全</a></li>
+                    <li><a href="">seo培训赚钱</a></li>
+                    <li><a href="">雅库在线</a></li>
+                    <li><a href="">最新娱乐新闻</a></li>
+                    <li><a href="">算命</a></li>
+                    <li><a href="">美女图</a></li>
+                    <li><a href="">爱情电影</a></li>
+                    <li><a href="">泰剧tv</a></li>
+                    <li><a href="">泰剧大全</a></li>
+                    <li><a href="">韩剧天堂</a></li>
+                    <li><a href="">天天韩剧</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- 底部footer -->
+        <div class="footerbox">
+            <div class="footermain">
+                <div class="footerone">
+                    <h5>排行榜</h5>
+                    <ul>
+                        <li><a href="">韩剧排行榜</a></li>
+                        <li><a href="">综艺行榜</a></li>
+                        <li><a href="">电影排行榜</a></li>
+                    </ul>
+                </div>
+                <div class="footertwo">
+                    <h5>追剧</h5>
+                    <ul>
+                        <li><a href="">韩剧</a></li>
+                        <li><a href="">电影</a></li>
+                        <li><a href="">综艺</a></li>
+                        <li><a href="">视频</a></li>
+                    </ul>
+                </div>
+                <div class="footerthree">
+                    <h5>资讯</h5>
+                    <ul>
+                        <li><a href="">韩剧资讯</a></li>
+                        <li><a href="">电影资讯</a></li>
+                        <li><a href="">综艺资讯</a></li>
+                        <li><a href="">音乐资讯</a></li>
+                        <li><a href="">专访资讯</a></li>
+                        <li><a href="">图片艺资讯</a></li>
+                        <li><a href="">明星资讯</a></li>
+                        <li><a href="">专访资讯</a></li>
+                    </ul>
+                </div>
+                <div class="footerfour">
+                    <h5>关于</h5>
+                    <ul>
+                        <li><a href="">关于我们</a></li>
+                        <li><a href="">联系我们</a></li>
+                        <li><a href="">商务合作</a></li>
+                        <li><a href="">版权投诉</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 版权 -->
+        <div class="footerbq">
+            <span>Copyright © 2018 韩剧tv. All rights reserved.</span>
+            <span>蜀ICP备16009484号-1</span>
+            <span>
+                <img src="https://www.hanjutv.com/statics/images/ba-icon.png" alt="">
+                <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51010802000107">川公网安备
+                    51010802000107号</a>
+            </span>
+        </div>
+    </div>
+    <script>
+        function show() {
+            location.href = "./login.html"
+        }
+    </script>
+</body>
+
+</html>

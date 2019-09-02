@@ -1,0 +1,371 @@
+*{margin: 0; padding: 0;}
+/* ----------------------------------导航下边主体盒子--------------------------------------------------- */
+#head-box-main{
+    width: 1120px;
+    height: 416px;
+    overflow: hidden;
+    color: #000000;
+    font-size: 14px;
+    background:#ffffff;
+    /* border: 1px solid black; */
+    margin: 70px auto;
+    padding: 20px;
+}
+#leftbox{
+    float: left;
+    overflow: hidden;
+    width: 440px;
+    height: 396px;
+    background: #ffffff;
+    /* border:1px solid #FF443F; */
+}
+#leftbox-top>img{
+    width: 420px;
+    height:244px;
+}
+#leftbox-buttom>img{
+    width: 200px;
+    height:112px;
+    margin-top: 20px;
+}
+#img1{
+    margin-right: 20px;
+}
+#centerbox{
+    width: 440px;
+    height: 396px;
+    background: #ffffff;
+    /* border: 1px solid blue; */
+    float: left;
+    overflow: hidden;
+}
+#centerbox>ul>li{
+    list-style: none;
+}
+#centerbox>ul>li>img{
+    width: 200px;
+    height:112px;
+}
+#imga{
+    margin: 0 20px 20px 0;
+}
+#imgc{
+    margin: 0 20px 20px 0;
+}
+#imge{margin-right: 20px;
+
+}
+#rightbox{
+    width: 200px;
+    height:328px;
+    float: right;
+    background: #ffffff;
+    /* background: #999999; */
+}
+li {
+    list-style: none;
+}
+.xuh{
+    width:22px;
+    height:22px;
+    display: inline-block;
+    text-align: center;
+    font-style: normal;
+    border: none;
+    /* float: left; */
+    background: #ffffff;
+    border-radius: 5px;
+}
+#xuh1{background: #ff443f;}
+#xuh2{background:#f47b21;}
+#xuh3{background:#f5ba08;}
+#xuh4,#xuh5,#xuh6,#xuh7,#xuh8,#xuh9,#xuh10{background:#999999;}
+#rightbox a{
+    display: inline-block;
+    margin-left: 12px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #333333;
+}
+.btn-size{
+width: 200px;
+height: 32px;
+background: #ffffff;
+margin-top: 24px;
+color: #f5f5f5;
+text-align: center;
+line-height: 32px;
+border-radius: 3px;
+outline: none !important;
+}
+a{text-decoration: none !important;}
+/*----------------------------1.追剧---------------------------------------------------------------------*/
+.zhuijubox{
+    width: 1120px;
+    height: 712px;
+    background:#ffffff;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top:-80px;
+    overflow: hidden;
+}
+.zjnav>h5{
+    float: left;
+    border-left:1px black;
+}
+.zjnav>ul>li{
+    float: left;
+    width: 76px;
+    height: 26px;
+    background:#f6f6f6;
+    border-radius: 10px;
+    margin: 0 10px;
+
+}
+
+.zjnav>ul>li>span{
+    color: black;
+    font-size: 13px;
+    padding: 0 12px;
+    margin-right: 8px;
+    width: 76px;
+    height: 26px;
+    float: left;
+    line-height: 26px;
+    display: inline-block;
+}
+span:active{
+    background:#ff443f;
+    color:white !important; 
+    border-radius: 10px;
+}
+.zjnav>ul>a{
+    float: right;
+}
+.zjimg{
+    width: 1100px;
+    height: 646px;
+    font-size: 16px;
+    display: table;
+    /*background: yellowgreen;*/
+}
+.zjimg>img{
+    width: 170px;
+    height: 255px;
+    background: #ffffff;
+    margin-top: 20px;
+    margin-right: 12px;
+}
+/*-------------------------------------------2.韩剧瞬间----------------------------------------------------*/
+.hjsjbox{
+    width: 1120px;
+    height: 246px;
+    /*background: yellow;*/
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    background:#ffffff;
+}
+.hjsjnav>h5{
+    float: left;
+}
+.hjsjnav>ul>a{
+    float: right;
+}
+.hjsjimg{
+    width: 1080px;
+    height: 180px;
+    display: table;
+}
+.hjsjimg>div{
+    width: 200px;
+    height:240px;
+    float: left;
+    margin-right: 16px;
+}
+.hjsjimg>div>a{
+    color:black;
+}
+.hjsjimg>div>img{
+    width: 200px;
+    height:112px;
+    background: #ffffff;
+    float: left;
+}
+#lastimg{
+    margin-right:0;
+}
+/*--------------------------------------------3.综艺------------------------------------------------------*/
+.zongyibox{
+    width: 1120px;
+    height:426px;
+    /*background: yellow;*/
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    /* background: orange; */
+    background: #ffffff;
+} 
+.zongyinav{
+    width: 1080px;
+    height:26px;
+    /*background: palevioletred;*/
+}
+.zongyinav>h5{
+    float: left;
+    padding-left: 20px;
+    margin-left: -20px;
+}
+.zongyinav>ul>a{
+    float: right;
+}
+.zyleftimg{
+    width: 420px;
+    height:360px;
+    /*background: hotpink;*/
+    margin-right: 20px;
+    margin-left: -40px;
+    overflow: hidden;
+    float: left;
+}
+.zyleftimg>img{
+    width: 420px;
+    height:292px;
+    margin-top: 20px;
+}
+.zyrightimg{
+    width: 640px;
+    height:360px;
+    /*background: orange;*/
+    float: right;
+}
+.zyrightimg>div{
+    width: 200px;
+    height:180px;
+    float: left;
+    margin-right: 13px;
+}
+.zyrightimg>div>img{
+    width: 200px;
+    height:112px;
+    margin-top: 20px;
+}
+/*---------------------------------------4. 综艺热点--------------------------------------------------- */
+.zyrdbox{
+    width: 1120px;
+    height:246px;
+    /* background: #f5ba08; */
+    background: #ffffff;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.zyrdnav{
+    width: 1080px;
+    height:26px;
+    /* background: #999999; */
+    margin-top: -15px;
+}
+.zyrdnav>h5{
+    float: left;
+}
+.zyrdnav>ul>a{
+    float: right;
+}
+.zyrdimg{
+    width: 1080px;
+    height:180px;
+    /* background: #ff443f; */
+    display: table;
+}
+.zyrdimg>div{
+    width: 200px;
+    height:160px; 
+    margin-right: 16px;
+    float: left;
+}
+.zyrdimg>div>img{
+    width: 200px;
+    height:112px; 
+    margin-top: 20px;
+    float: left;
+}
+.zyrdimg>div>a{
+    color: black;
+}
+/* -------------------------------------------------5.韩娱资讯 ---------------------------------------------------------------------------*/
+.hyzxbox{
+    width: 1120px;
+    height:426px; 
+    background:#ffffff;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+}
+.hyzxnav{
+    width: 1080px;
+    height:26px;
+    /* background:plum; */
+    margin-top: -15px;
+}
+.hyzxnav>h5{
+    float: left;
+}
+.hyzxnav>ul>a{
+    float: right;
+}
+.hyzximg{
+    width: 1080px;
+    height:360px;
+    /* background: burlywood; */
+    display: table;
+}
+.hyzximg>div{
+    width: 200px;
+    height:160px;
+    /* background: #f47b21; */
+    margin-top: 20px;
+    margin-right: 16px;
+    float: left;
+    overflow: hidden;
+}
+.hyzximg>div>img{
+    width: 200px;
+    height:112px; 
+    float: left;
+}
+.hyzximg>div>a{
+    color: #000000;
+}
+/* ----------------------------------------------------------------6.友情链接 -------------------------------------------------------------*/
+.yqljbox{
+    width: 1120px;
+    height:166px; 
+    /* background:#f47b21; */
+    background: #ffffff;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.yqljbox>div>h5{
+    width: 1080px;
+    height:26px; 
+    /* background: #ff443f; */
+}
+.yqljmain{
+    width: 1080px;
+    height:100px; 
+    /* background: palevioletred; */
+}
+.yqljmain>ul>li{
+    width: 135px;
+    height:20px; 
+    float: left;
+    margin-top: 10px;
+}
+.yqljmain>ul>li>a{
+font-size: 14px;
+color: #000000;
+}
+
