@@ -1,0 +1,1181 @@
+*{margin: 0;padding: 0;}
+li{list-style: none}
+a{text-decoration: none}
+/* -------------------页眉------------------------------- */
+.header{
+    width: 100%;
+    height:30px;
+    background-color:#4bb344;
+    color:white;
+    font-size: 14px;
+}
+/* ----------------------可视盒子 -----------------------------*/
+.viewbox{
+    width:80%;
+    height:30px;
+    margin: 0 auto;
+}
+.sp1{
+    float: left;
+    line-height: 30px;
+    font-size: 14px;
+    padding: 0 15px;
+}
+.sp2{
+    float: right;
+    line-height: 30px;
+    font-size: 14px;
+    padding: 0 15px;
+}
+.nav{
+    width: 100%;
+    height:71px;
+    background-color:white;
+    color:#333;
+    font-size: 14px;
+}
+.center{
+    width:80%;
+    height:74px;
+    margin: 0 auto;
+}
+.center>img{
+    width: 145px;
+    height:47px;
+    padding: 9px;
+    float: left;
+}
+.center ul{
+    width: 564px;
+    height: 74px;
+    float: right;
+}
+.center ul .lione{
+    width: 84px;
+    height: 74px;
+    line-height: 71px;
+    float: left;
+}
+.center .a1{
+    display: block;
+    width: 84px;
+    height: 71px;
+    border-bottom: 3px solid white; 
+    color: #000;
+}
+.center .a1:hover{
+    color:#4bb344;
+    border-bottom: 3px solid #4bb344;
+}
+.center ul li a{
+    display: block;
+    width: 120px;
+    height: 71px;
+    border-bottom: 3px solid white; 
+    color: #000;
+}
+.center a:hover{
+    color:#4bb344;
+    border-bottom: 3px solid #4bb344;
+}
+.center ul li{
+    width: 120px;
+    height: 71px;
+    line-height: 71px;
+    float: left;
+    text-align:center;
+    font-size: 18px;
+}
+/* --------------------小屏时导航栏按钮 -----------------------------------*/
+.smallScreenBtn {
+  width: 43px;
+  height: 33px;
+  background: #4bb344;
+  display: none;
+  border-radius: 5px;
+}
+/*----------------------- 小屏导航的样式 ----------------------------------*/
+.smallScreenNav {
+  width: 698px;
+  height:371px;
+  background:white;
+  display: none;
+  padding: 0 15px;
+}
+.smallScreenNav div {
+  width:698px;
+  height:71px;
+  line-height: 71px;
+}
+.smallScreenNav div a{
+  width:698px;
+  height:71px;
+  color:#000;
+  font-size: 18px;
+  padding:24px 14px;
+  text-align: center;
+}
+.smallScreenNav div a:hover{
+  color:#4bb344;
+}
+.smallScreenNav div:hover{ 
+  border-width: 698px;
+  color:#4bb344;
+  border-bottom: 3px solid #4bb344;
+ 
+}
+/*--------------- 730-920中屏幕 -----------------------------*/
+@media screen and (max-width: 920px) {
+  .center{
+    width:100%;
+    height:74px;
+  }
+}
+/* -------------------小屏幕774以下----------------------------- */
+@media screen and (max-width: 774px) {
+  .smallScreenBtn{
+    display: block;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  .center ul {
+    display: none;
+  }
+}
+/* ----------------------轮播图 -----------------------------------*/
+html, body {
+    position: relative;
+    height: 100%;
+  }
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+  }
+  .swiper-container {
+    width:100%;
+    /* height:646px; */
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .swiper-slide>img{
+      width:100%;
+      /* height:646px; */
+  }
+  /*-------------------- 关于我们 -------------------------------*/
+  .about{
+    width:100%;
+    /* height:576px; */
+    background-image: url(../img/abingj.jpg
+    );
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 5%;
+    text-align: center;
+    filter:alpha(opacity=70);
+    
+  }
+  .title{
+      height:85px;
+      padding:58px 0;
+      /* margin: 0 auto; */
+      text-align: center;
+  }
+  .title h2{
+    height:33px;
+    font-size: 30px;
+   
+  }
+  .title h2 span{
+      display:inline-block;
+      width:65px;
+      height: 3px;
+      background: #4bb344;
+      margin: 0 0 6px;
+      margin: 10px 10px;
+  }
+  .abus{
+    display:inline-block;
+    width:180px;
+    height: 41px;
+    color: #4bb344;
+    font-size: 16px;
+    padding-top: 20px;
+    margin: 0 auto;
+  }
+  .outdoor{
+    width:1140px;
+    height: 374px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  .outdoor img{
+    width:540px;
+    height: 368px;
+    padding: 0 15px;
+    float: left;
+  }
+  .outdoor-text{
+      width:540px;
+      height:374px;
+      padding: 0 15px;
+      float: left;
+      text-align: left;
+  }
+  .outdoor-text h6{
+      width:100%;
+      height:50px;
+      color: #4bb344;
+      font-size:32px;
+      font-weight: normal;
+      line-height: 40px;
+      margin: 0;
+      text-align: start;
+  }
+  .outdoor-top{
+      width: 100%;
+      height:29px;
+      padding-top: 10px;
+      padding-bottom: 15px;
+      text-align: left;
+      font-size: 18px;
+      color: #D0D0D0;
+      line-height: 165%;
+  }
+  .outdoor-text p{
+      width: 540px;
+      height:90px;
+      font-size: 15px;
+      line-height: 30px;
+      color: rgb(102, 102, 102);
+      text-align: justify;
+  }
+  .outdoor-text span{
+      display: inline-block;
+      width: 56px;
+      height:30px;
+      line-height: 30px;
+      background: #4bb344;
+      border-radius: 10px;
+      padding: 0 12px;
+      color: #FFF;
+      font-style: 14px;
+  }
+  /* ---------------------关于我们中屏992-1199样式--------------- */
+  @media screen and (min-width: 992px) and (max-width:1199px){
+    .mdabout{
+      width:100%;
+      height:580px;
+      background-image: url(../img/abingj.jpg
+      );
+      background-position: center;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      margin:auto;
+      padding-bottom: 5%;
+      text-align: center;
+      filter:alpha(opacity=70);
+    }
+    .mdtitle{
+      width:970px;
+      height:79px;
+      padding:48px 0;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .mdoutdoor{
+      display: flex;
+    }
+    .mdoutdoor img{
+      width:440px;
+      height: 300px;
+    }
+    .mdoutdoor-text{
+      width:440px;
+      height:404px;
+      direction: ltr;
+      font-size: 14px;
+      color: #333;
+  }
+  .mdoutdoor-text p{
+    width: 440px;
+    height:90px;
+    color:#666;
+   }
+   .mdoutdoor-text span{
+    display: inline-block;
+    width: 56px;
+    height:30px;
+   }
+  }
+  /* ---------------------关于我们小屏767-991样式--------------- */
+  @media screen and (min-width: 700px) and (max-width:991px){
+    .smabout{
+      width:100%;
+      height:938px;
+      padding-bottom: 43px;
+    }
+    .smtitle{
+      width:750px;
+      height:79px;
+      padding:37.5px 0;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .mdoutdoor{
+      width:750px;
+      height:939px;
+      margin: 0 auto;
+    }
+    .smoutdoor img{
+      width:690px;
+      height: 471px;
+      margin:0 auto;
+    }
+    .smoutdoor-text{
+      width:690;
+      height:314px;
+      direction: ltr;
+      padding: 0 15px;
+    }
+    .smoutdoor-text p{
+      width:690px;
+      height:60px;
+      color:#666;
+      font-size: 15px;
+     }
+     .smoutdoor-text span{
+      display: inline-block;
+      width: 56px;
+      height:30px;
+      padding:0 12px;
+     }
+  }
+  /* 产品系列 */
+  .product-list{
+      width:100%;
+      height:482px;
+      padding-bottom: 79px;
+      text-align: center;
+  }
+  .product-list ul{
+    width: 1140px;
+    padding:0 15px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+  }
+  .product-list ul li{
+      float: left;
+      width: 255px;
+      height:255px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 15px;
+      position: relative;
+  }
+  .product-list ul li img{
+      width:255px;
+      height:255px;
+  }
+  .product-list ul li .sousuo{
+      width: 20%;
+      /* height:100px; */
+      position: absolute;
+      left:111px;
+      top:98px;
+      z-index: 10;
+      display: none;
+  }
+  .product-list ul li .sousuo img{
+    width: 60px;
+    height:60px;
+  }
+  /* ------------------------产品系列中屏幕992-1199样式 ------------*/
+  @media screen and (min-width: 992px) and (max-width:1199px){
+    .mdproduct-list{
+        width:100%;
+        /* height:406px; */
+        padding-bottom: 49px;
+        text-align: center;
+    }
+    .mdproduct-list ul{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+      margin: 0 auto;
+      /* height:220px; */
+    }
+    .mdproduct-list ul li{
+      float: left;
+      width: 205px;
+      height:205px;
+      font-size: 14px;
+      color:#333;
+  }
+  .mdproduct-list ul li img{
+    width:100%;
+    height:100%;
+    }
+  }
+  /* ------------------------产品系列小屏幕700-991px样式 ------------*/
+  @media screen and (min-width: 700px) and (max-width:991px){
+    .smproduct-list{
+      width:100%;
+      height:854px;
+      padding-bottom: 49px;
+      text-align: center;
+  }
+  .smproduct-list ul{
+    width: 720px;
+    margin: 0 auto;
+    height:690px;
+    padding: 0 15px;
+    margin-bottom: 10px;
+  }
+  .smproduct-list ul li{
+    float: left;
+    width: 330px;
+    height:330px;
+    font-size: 14px;
+    color:#333;
+    padding: 0 15px 15px;
+}
+.smproduct-list ul li img{
+  width:330px;
+  height:330px;
+   }
+  }
+
+  /* 产品展示 */
+  .product-display{
+      width:100%;
+      height:1060px;
+      padding-bottom: 63px;
+  }
+  .product-display img{
+    background: #f5f4f0;
+  }
+  .display-list{
+    width:1140px;
+    height:860px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .picone{
+    width:540px;
+    height:264px;
+    padding:0 15px;
+    float: left;
+    overflow: hidden;
+  }
+  .picone img{
+    width:534px;
+    height:258px;
+  }
+  .mark{
+    width:534px;
+    height:258px;
+    border:3px solid #fff;
+    position: absolute;
+    z-index: 2;
+    top:-258px;
+    display: none;
+    color: #4bb344;
+    font-size:20px;
+    background: #000;
+    opacity: 0.5;
+    text-align: center;
+    line-height: 258px;
+    display: none;
+    transform: translateY(258px);
+    transition: all .3s linear;
+  }
+  .pictwo{
+    width:350px;
+    height:263px; 
+    float: left;
+    padding: 0 15px;
+    margin: 34px 0;
+  }
+  .pictwo img{
+      width:344px;
+      height:257px;
+  }
+  .marktwo{
+    width:350px;
+    height:263px;
+    border:3px solid #fff;
+    position: absolute;
+    z-index: 2;
+    top:296px;
+    /* display: none; */
+    color: #4bb344;
+    font-size:20px;
+    background: #000;
+    opacity: 0.5;
+    transition: all .3s linear;
+    text-align: center;
+    line-height: 263px;
+    overflow: hidden;
+  }
+  .marktwo:hover{
+    transform: rotate(360deg);
+  }
+  .markthree{
+    width:534px;
+    height:258px;
+    border:3px solid #fff;
+    position: absolute;
+    z-index: 2;
+    top:593px;
+    /* display: none; */
+    color: #4bb344;
+    font-size:20px;
+    background: #000;
+    opacity: 0.5;
+    transition: all .3s linear;
+    text-align: center;
+    line-height: 263px;
+    overflow: hidden;
+  }
+  .markthree:hover{
+    transform: rotate(360deg);
+  }
+/*------------------中屏幕992-1199产品展示样式 ------- -*/
+@media screen and (min-width: 992px) and (max-width:1199px){
+  .mdproduct-display{
+    width:100%;
+    height:886px;
+    padding-bottom: 48.7px;
+    background: #fff;
+    /* padding-bottom: 49px; */
+  }
+  .mddisplay-list{
+      width: 940px;
+      height:713px;
+      margin: 0 auto;
+  }
+  .mdpicone{
+    width:440px;
+    height:216px;
+    float:left;
+    margin-top: -20px;
+  }
+  .mdpicone img{
+    width:100%;
+    /* height:210px; */
+  }
+  .mdmark{
+    width:434px;
+    height:210px;
+    top:-278px;
+  }
+  .mdpictwo{
+  width:283px;
+  height:213x; 
+  }
+  .mdpictwo img{
+    width:100%;
+    height:207px;
+    }
+  .mdmarktwo{
+      width:277px;
+      height:207px;
+      top:229px;
+    }
+  .mdmarkthree{
+    width:434px;
+    height:210px;
+    top:506px;
+    }
+}
+/*------------------小屏幕700-991产品展示样式 ------- -*/
+@media screen and (min-width: 700px) and (max-width:991px){
+  .smproduct-display{
+    width:100%;
+    height:703px;
+    padding-bottom: 48.7px;
+    background: #fff;
+  }
+  .smdisplay-list{
+    width: 720px;
+    height:551px;
+    margin: 0 auto;
+    }
+    .smpicone{
+      width:330px;
+      height:163px;
+      float:left;
+      margin-top: -20px;
+      padding: 0 15px;
+    }
+    .smpicone img{
+      width:324px;
+      height:157px;
+    }
+    .smmark{
+      width:324px;
+      height:157px;
+      top:-278px;
+    }
+    .smpictwo{
+      width:210px;
+      height:158x; 
+      padding: 0 15px;
+      margin: 34px 0;
+      }
+      .smpictwo img{
+        width:100%;
+        height:153px;
+        }
+      .smmarktwo{
+          width:210px;
+          height:158px;
+          top:176px;
+        }
+      .smpicthree{
+        margin-top:-104px;
+      }
+      .mdmarkthree{
+        width:330px;
+        height:163px;
+        top:365px;
+        }
+}
+  .tanxian{
+    width:100%;
+    height:399px; 
+    background-image:url(../img/tanxian.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  .tanxian h1{
+    width:1140px;
+    height:66px; 
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 60px;
+    padding-top: 8%;
+    margin: 0 auto;
+  }
+  .tanxian span{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .tanxian p{
+    width:1140px;
+    height:22px; 
+    padding-top:57px;
+    padding-bottom: 91px;
+    color: #FFFFFF;
+    font-weight: 200;
+    font-size: 16px;
+    margin: 0 auto;
+  }
+  .Hotsale{
+    width:100%;
+    height:499px;
+  }
+  /*----------- 探险992-1199中屏显示的状态---------------*/
+  @media screen and (min-width: 992px) and (max-width:1199px){
+    .mdtanxian{
+      width:100%;
+      height:324px; 
+      text-align: center;
+    }
+    .mdtanxian h1{
+      width:940px;
+      height:49px; 
+      font-size: 45px;
+    }
+    .mdtanxian span{
+      color: #FFFFFF;
+      font-weight: 700;
+      font-size: 20px;
+    }
+    .mdtanxian p{
+      width:940px;
+      height:20px; 
+      padding-top:47px;
+      padding-bottom: 75px;
+      color: #FFFFFF;
+      font-weight: 200;
+      font-size: 14px;
+      margin: 0 auto;
+    }
+
+  }
+   /*----------- 探险767-991小屏显示的状态---------------*/
+   @media screen and (min-width: 767px) and (max-width:991px){
+    .smtanxian{
+      width:100%;
+      height:278px; 
+      text-align: center;
+    }
+    .smtanxian h1{
+      width:720px;
+      height:49px; 
+      font-size: 45px;
+      color: #FFFFFF;
+      padding-top: 58px;
+      
+    }
+    .smtanxian span{
+      color: #FFFFFF;
+      font-weight: 700;
+      font-size: 20px;
+      width: 293px;
+      height:26px;
+    }
+    .smtanxian p{
+      width:720px;
+      height:20px; 
+      padding-top:36px;
+      padding-bottom: 58px;
+      font-weight: 200;
+      margin: 0 auto;
+    }
+   }
+
+  /*---------------------- 热销产品轮播图------------------ */
+  .hotswiper{
+    width:1170px;
+    height:260px;
+  }
+  /* 单个div样式 */
+  .hotslide{
+    width:293px;
+    height:260px;
+    text-align: center;
+    font-size: 18px;
+    /* background:pink; */
+    position: relative;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .hotslide>img{
+     width:285px;
+     height:260px;
+     /* padding-bottom: 20px; */
+     border: 1px solid white;
+     margin: 3px;
+     background: #e9e9e9;
+  }
+  .saytext{
+    width:285px;
+    height:60px;
+    background: #fff;
+    position: absolute;
+    top:200px;
+    line-height: 60px;
+  }
+  .saytext>a{
+    color:black;
+    font-size: 16px;
+  }
+
+  .saytext>a:hover{
+    color: #4bb344;
+  }
+  .news{
+    width:100%;
+    height:620px;
+    background:#fff;
+  }
+  @media screen and (min-width: 992px) and (max-width:1199px){
+     .mdHotsale{
+      width:970px;
+      height:440px;
+      margin:0 auto;
+    }
+  }
+   /*-------------------- 新闻消息小轮播图------------------------ */
+   .smallcontainer {
+    width:457px;
+    height:367px;
+    float: left;
+  }
+  .smallalide {
+    width:457px;
+    height:367px;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .smallalide>img{
+      width:457px;
+      height:367px;
+  }
+  .NewsInformation{
+    width:1170px;
+    height:620px;
+    margin: 0 auto;
+  }
+  .newstext{
+    width:652.5px;
+    height:418.5px;
+    /* background: pink; */
+    float:left;
+    margin-left:15px;
+    padding:0 15px;
+  }
+  .newstext ul{
+    width:652px;
+    height:418px;
+    margin-bottom: 60px;
+    /* background: #4bb344; */
+  }
+  .newstext ul li{
+    width:652px;
+    height:97.4px;
+    margin-top: 22px;
+  }
+  .newstext .lione{
+    margin-top: 0;
+  }
+  .newstext .litwo{
+    margin-top: 35px;
+  }
+  .newstext ul li img{
+    width:148px;
+    height:97.4px;
+    background-color: #ecedef;
+  }
+  .introduce{
+    width:460px;
+    height:83px;
+    /* background:yellow; */
+    float:right;
+  }
+  .atitle{
+    display: block;
+    width:460px;
+    height:22px;
+    color: #000;
+    font-size: 16px;
+  }
+  .ptime{
+    width:460px;
+    height:20px;
+    color: #999;
+    font-size: 14px;
+  }
+  .ptext{
+    width:460px;
+    height:40px;
+    color: #646464;
+    font-size: 14px;
+  }
+  /* --------------新闻资讯992-1199px样式 -------------------------*/
+  @media screen and (min-width: 992px) and (max-width:1199px){
+    .mdnews{
+      width:100%;
+      height:548px; 
+    }
+    .mdsmallalide{
+      width:374px;
+      height:304px;
+      padding:0 15px;
+    }
+    .mdsmallalide>img{
+      width:374px;
+      height:281px;
+    }
+    .mdnewstext{
+      width:535px;
+      height:372px;
+    }
+    .mdnewstext ul{
+      width:535px;
+      height:290px;
+      margin-bottom: 60px;
+    }
+    .mdnewstext ul li{
+      width:536px;
+      height:82px;
+    }
+    .mdnewstext .mdlitwo{
+      margin-top: 20px;
+    }
+    .mdnewstext .lione{
+      margin-top: 45px;
+    }
+    .mdnewstext ul li img{
+    width:118px;
+    height:78px;
+    }
+    .mdintroduce{
+      width:371px;
+      height:78px;
+    }
+    .mdatitle{
+      display: block;
+      width:372px;
+      height:22px;
+      color:#323232;
+    }
+    .mdptime{
+      width:372px;
+    }
+    .mdptext{
+    width:372px;
+    height:40px;
+    }
+  }
+   /* --------------新闻资讯767-991px样式 -------------------------*/
+  @media screen and (min-width: 767px) and (max-width:991px){
+    .smnews{
+      width:100%;
+      height:1288px; 
+      margin: 0 auto;
+    }
+    .smNewsInformation{
+      width: 750px;
+      height:1134px;
+      margin: 0 auto;
+    }
+    .smswiper{
+      width:720px;
+      height:564px;
+      padding:0 15px;
+    }
+    .smsmallalide>img{
+      width:720px;
+      height:542px;
+    }
+    .smnewstext{
+      width:720px;
+      height:570px;
+      padding: 0 15px;
+      margin:0 auto;
+    }
+    .smnewstext ul{
+      width:720px;
+      height:488px;
+      margin-bottom: 60px; 
+    }
+    .smnewstext ul li{
+      width:720px;
+      height:148px;
+      margin-top: 22px;
+      margin-left: -30px;
+    }
+    .smnewstext ul li img{
+      width:225px;
+      height:148px;
+      }
+      .smintroduce{
+        width:450px;
+        height:148px;
+       text-align: start;
+      }
+      .smatitle{
+        display: block;
+        width:450px;
+        height:22px;
+        color:#323232;
+      }
+      .smptime{
+        width:450px;
+        height:20px;
+      }
+      .smptext{
+      width:450px;
+      height:40px;
+      color: #646464;
+      font-size: 14px;
+      }
+  }
+  /*--------------------- 尾部样式------------------------------ */
+  .foot{
+    width:100%;
+    height:287px;
+    background:#c5cace;
+    border-top: 2px solid #4bb344;
+    overflow: hidden;
+  }
+  .returntop{
+    display: block;
+    width: 40px;
+    height:40px;
+    background: #4bb344;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 auto;
+  }
+  .foot-list{
+    width: 1061px;
+    height:207px;
+    /* background: pink; */
+    margin:0 auto;
+    margin-top:40px;
+  }
+  .foot-list ul{
+    width: 1031px;
+    height:126px;
+    /* background: #4bb344; */
+    padding: 0 15px;
+    margin-bottom: 10px;
+    line-height: 126px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .foot-list ul li{
+    width: 126px;
+    height:25px;
+    float:left;
+    margin:0 10px;
+    text-align: center;
+  }
+  .foot-list ul li>a{
+    display: block;
+    width:126px;
+    height:25px;
+    color: #333;
+    font-size: 18px;
+    text-align: center;
+  }
+  .foot-list a>img{
+    width:126px;
+    height:126px;
+  }
+  .address{
+    width: 1061px;
+    height:20px;
+    text-align: center;
+    color: #666;
+    font-size: 16px;
+    padding-bottom: 15px;
+  }
+  /* ----------------尾部992-1199px中屏样式 ---------------*/
+  @media screen and (min-width: 992px) and (max-width:1199px){
+    .mdfoot{
+      width:100%;
+      height:292px;
+    }
+    .mdfoot-list {
+      width: 100%;
+      height:209px;
+    }
+    .mdfoot-list ul{
+      width: 1130px;
+      height:137px;
+      line-height: 137px;
+      margin: 0 auto;
+    }
+    .mdfoot-list ul li{
+      width: 138px;
+      height:20px;
+    }
+    .mdfoot-list ul li>a{
+      display: block;
+      width:138px;
+      height:20px;
+      font-size: 14px;
+    }
+    .mdfoot-list a>img{
+      width:138px;
+      height:138px;
+    }
+    .mdaddress{
+      width: 1061px;
+      height:20px;
+      font-size: 12px;
+      padding-top: 15px;
+      padding-bottom: 0;
+    
+    }
+  }
+   /* ----------------尾部767-991px中屏样式 ---------------*/
+   @media screen and (min-width: 767px) and (max-width:991px){
+    .smfoot{
+      width:100%;
+      height:265px;
+      margin: 0 auto;
+    }
+    .smfoot-list{
+      width:100%;
+      height:266px;
+      padding: 0 15px;
+    }
+    .smfoot-list ul{
+      width:912px;
+      height:112px;
+      line-height: 112px;
+      margin: 0;
+      padding:0;
+     
+    }
+    .smfoot-list ul li{
+      width: 110px;
+      height:20px;
+    }
+    .smfoot-list ul li>a{
+      display: block;
+      width:112px;
+      height:20px;
+      font-size: 14px;
+    }
+    .smfoot-list a>img{
+      width:112px;
+      height:112px;
+    }
+    .smaddress{
+      width: 939px;
+      height:17px;
+      font-size: 12px;
+      padding-top: 12px;
+      padding-bottom: 0;
+    }
+   }

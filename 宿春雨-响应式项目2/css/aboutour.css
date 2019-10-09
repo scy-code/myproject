@@ -1,0 +1,421 @@
+*{ margin: 0;padding: 0;}
+a{text-decoration: none;}
+li{list-style: none}
+.navpic{
+    display: flex;
+    width:100%;
+    height:329px;
+}
+.navpic>img{
+    width:100%;
+    height:329px;
+}
+/* 1200px以上大屏样式 */
+@media screen and (min-width: 1200px) {
+/*-------------------------------公司简介 ----------------- */
+.ConpanyProfile{
+    width:100%;
+    height:648px;
+    padding: 83px 0;
+    background: #fff;
+}
+.container{
+    width:1140px;
+    height:648px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.title{
+    width:1170px;
+    height:65px;
+    padding-bottom:23px;
+    padding-top: 0;
+    margin: 0 auto;
+}
+.title h2{
+    width:1170px;
+    height:33px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 30px;
+    font-weight: normal;
+}
+.title span{
+    width:122px;
+    height: 21px;
+    color: #4bb344;
+    font-size:16px;
+}
+.abouttop{
+    width:1140px;
+    height: 540px;
+    padding: 0 15px;
+}
+.aboutleft{
+    width:540px;;
+    height: 540px; 
+    padding: 0 15px;
+    float: left;
+}
+.aboutleft img{
+    width:540px;;
+    height: 540px; 
+}
+.aboutright{
+    width:540px;;
+    height: 502px; 
+    padding: 0 15px;
+    float: right;
+}
+.aboutright h4{
+    width:500px;
+    height:22px;
+    padding:20px;
+    color: #4bb344;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 20px;
+}
+.p1{
+    width:540px;
+    height:90px;  
+    color: #333;
+    font-size: 16px;
+}
+.p2{
+    width:540px;
+    height:60px; 
+    color: #333;
+    font-size: 16px;
+}
+.p3{
+width:540px;
+height:180px;  
+color: #333;
+font-size: 16px;
+}
+.aboutright p{
+    font-size: 16px;
+    color: #333;
+    line-height: 30px;
+    text-align: left !important;
+    text-indent: 30px;
+}
+.aboutright p:hover{
+color: #4bb344;
+}
+/* -----------------------经营理念 --------------------------*/
+.idea{
+    height:318px;
+    background-image: url(../img/abbj.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+    text-align: center;
+    padding: 5% 0px;
+    padding: 83px 0;
+}
+.row{
+    width:1170px;
+    height:108px;
+    margin: 0 auto;
+}
+.ideatext{
+    width:1110px;
+    height:210px;
+    padding: 0 15px;
+}
+.ideatext p{
+    width:1080px;
+    height:30px;
+    padding: 0 15px;
+    color: #333;
+    font-size: 16px;
+}
+.ideatext p:hover{
+    color: #4bb344;
+}
+/* ------------------------服务保障 ---------------------*/
+.service{
+    height:100%;
+    padding:83px 0;
+    background-color:#fff;
+    text-align: center;
+    background-image: url(../img/service.jpg);
+    background-position: center;
+    background-size: 1170px 577px;
+    background-repeat:no-repeat;
+    }
+}
+/* ----------------中屏992-1199px公司简介------------------- */
+@media screen and (min-width: 992px) and (max-width:1199px){
+    .mdConpanyProfile{
+        width:1180px;
+        height:720px;
+        padding: 59px 0;
+        background: #fff;
+    }
+    .mdcontainer{
+        width:940px;
+        height:720px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .mdtitle{
+        width:970px;
+        height:59px;
+        padding-bottom:19px;
+        padding-top: 0;
+        margin: 0 auto;
+    }
+    .mdtitle h2{
+        width:970px;
+        height:27px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        color: #333;
+        font-size: 30px;
+        font-weight: normal;
+    }
+    .mdabouttop{
+        width:940px;
+        height: 622px;
+        padding: 0 15px;
+    }
+    .mdaboutleft{
+        width:440px;
+        height: 440px; 
+        padding: 0 15px;
+        float: left;
+    }
+    .mdaboutleft img{
+        width:440px;
+        height: 440px; 
+    }
+    .mdaboutright{
+        width:440px;
+        height: 622px; 
+        padding: 0 15px;
+        float: right;
+    }
+    .mdaboutright h4{
+        width:400px;
+        height:22px;
+        padding:20px;
+        color: #4bb344;
+        text-align: center;
+        margin: 10px 0;
+        font-size: 20px;
+    }
+    .mdp1{
+        width:440px;
+        height:120px;  
+        color: #333;
+        font-size: 16px;
+    }
+    .mdp2{
+        width:440px;
+        height:60px; 
+        color: #333;
+        font-size: 16px;
+    }
+    .mdp3{
+        width:440px;
+        height:240px;  
+        color: #333;
+        font-size: 16px;
+        }  
+    .mdaboutright p:hover{
+        color: #4bb344;
+        }
+}
+/* ----------------中屏992-1199px经营理念------------------- */
+@media screen and (min-width: 992px) and (max-width:1199px){
+    .mdidea{
+        height:308px;
+        background-image: url(../img/abbj.jpg);
+        background-position: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin: auto;
+        text-align: center;
+        padding: 5% 0px;
+        padding: 58px 0;
+    }
+    .mdrow{
+        width:970px;
+        height:98px;
+        margin: 0 auto;
+    }
+    .mdideatext{
+        width:910px;
+        height:210px;
+        padding: 0 15px;
+    }
+    .mdideatext p{
+        width:910px;
+        height:30px;
+        padding: 0 15px;
+        color: #333;
+        font-size: 16px;
+    }
+    .mdideatext p:hover{
+        color: #4bb344;
+    }
+}
+/* ----------------中屏992-1199px服务保障------------------- */
+@media screen and (min-width: 992px) and (max-width:1199px){
+    .mdservice{
+        height:100%;
+        padding:59px 0;
+        background-color:#fff;
+        text-align: center;
+        background-image: url(../img/service.jpg);
+        background-position: center;
+        background-size: 970px 479px;
+        background-repeat:no-repeat;
+        }
+}
+/* ----------------小屏700px-991px公司简介------------------- */
+@media screen and (min-width: 700px) and (max-width:991px){
+    .smConpanyProfile{
+        width:100%;
+        height:1166px;
+        padding: 48px 0;
+        background:#fff;
+        margin: 0 auto;
+    }
+    .smcontainer{
+        width:720px;
+        height:1166px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .smtitle{
+        width:750px;
+        height:59px;
+        padding-bottom:15px;
+        padding-top: 0;
+        margin: 0 auto;
+        color: #4bb344;
+    }
+    .smtitle h2{
+        width:750px;
+        height:27px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        color: #333;
+        font-size: 30px;
+        font-weight: normal;
+    }
+    .smabouttop{
+        width:720px;
+        height: 1072px;
+        padding: 0 15px;
+    }
+    .smaboutleft{
+        width:690px;
+        height: 690px; 
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+    .smaboutleft img{
+        width:690px;
+        /* height: 690px;  */
+    }
+    .smaboutright{
+        width:690px;
+        height: 382px; 
+        padding: 0 15px;
+        margin: 0 auto;
+        text-indent: 2rem;
+    }
+    .smaboutright h4{
+        width:650px;
+        height:22px;
+        padding:20px;
+        color: #4bb344;
+        text-align: center;
+        margin: 10px 0;
+        font-size: 20px;
+    }
+    .smp1{
+        width:690px;
+        height:60px;  
+        color: #333;
+        font-size: 16px;
+    }
+    .smp2{
+        width:690px;
+        height:30px; 
+        color: #333;
+        font-size: 16px;
+    }
+    .smp3{
+        width:690px;
+        height:150px;  
+        color: #333;
+        font-size: 16px;
+        }  
+    .smaboutright p:hover{
+        color: #4bb344;
+    }
+}
+/* ----------------小屏700px-991px经营理念------------------- */
+@media screen and (min-width:700px) and (max-width:991px){
+    .smidea{
+        height:334px;
+        background-image: url(../img/abbj.jpg);
+        background-position: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin: auto;
+        text-align: center;
+        padding: 5% 0px;
+        padding: 48px 0;
+    }
+    .smrow{
+        width:750px;
+        height:94px;
+        margin: 0 auto;
+    }
+    .smideatext{
+        width:910px;
+        height:210px;
+        padding: 0 15px;
+    }
+    .smideatext .p1{
+        width:660px;
+        height:60px;
+        padding: 0 15px;
+        color: #333;
+        font-size: 16px;
+    }
+    .smideatext p{
+        width:660px;
+        height:30px;
+        padding: 0 15px;
+        color: #333;
+        font-size: 16px;
+    }
+    .smideatext p:hover{
+        color: #4bb344;
+    }
+}
+/* ----------------小屏700px-991px服务保障------------------- */
+@media screen and (min-width:700px) and (max-width:991px){
+    .smservice{
+        width:100%;
+        height:464px;
+        padding:48px 0;
+        background-color:#fff;
+        text-align: center;
+        background-image: url(../img/service.jpg);
+        background-position: center;
+        background-size: 750px 370px;
+        background-repeat:no-repeat;
+        }
+}
+
